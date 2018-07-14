@@ -9,6 +9,7 @@
   "scripts": {
     "dev": "quasar dev",
     "build": "quasar build",
+    "electron": "quasar build -m electron",
     "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {
