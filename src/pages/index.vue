@@ -1,7 +1,7 @@
 <template>
   <q-page class="flex flex-center">
     <q-input
-      float-label="Search:"
+      float-label="Search and press Enter"
       :value="queryText"
       @input="updateQueryText($event)"
       @keydown.enter="runSearch"
